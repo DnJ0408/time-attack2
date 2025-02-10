@@ -6,11 +6,9 @@ import {
   DeepStructure,
 } from "./styles/StyledComponents";
 import { MessageContextProvider } from "./context/MessageContext";
-import { useState } from "react";
 
 // prop drilling 브랜치
 function App() {
-  const [message, setMessage] = useState("");
 
   return (
     <MessageContextProvider>
